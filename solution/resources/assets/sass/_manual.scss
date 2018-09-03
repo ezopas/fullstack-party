@@ -1,0 +1,168 @@
+$second-color: #86b300;
+$font-color: #2e3353;
+
+.welcome {
+  background-image: url("/img/ocean.jpg");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: initial;
+  padding-top: 12rem;
+}
+
+.welcome-title{
+  font-size: 56px;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 50px;
+}
+.welcome-title > span{
+  color: $second-color;
+}
+.welcome-link{
+  margin: 50px;
+  padding: 15px 100px;
+  background: $second-color;
+  color: #ffffff;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.welcome-link:hover{
+  color: #ffffff;
+}
+.navbar-fonas{
+  background-color: #ffffff;
+  border-color: #e6e6e6;
+  border-radius: 0px;
+  padding: 25px 0;
+  margin: 0;
+}
+.navbar-brand {
+  color: $font-color;
+  font-size: 30px;
+  font-weight: bold;
+}
+.navbar-brand > span{
+  color: $second-color;
+}
+.navbar-nav > li > a {
+  color: $font-color;
+}
+body{
+  background-color: #f5f5f5;
+}
+.dazymas{
+  color: $second-color;
+}
+.issue-header{
+  background-color: #ffffff;
+  border-radius: 5px;
+  width: 100%;
+  padding: 20px 50px;
+}
+.pilka{
+  color: #999999;
+}
+.mygtukas{
+  background-color: $second-color;
+  padding: 5px;
+  border-radius: 2px;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin: 0 15px 0 0;
+}
+.avataras{
+  width: 150px;
+  border-radius: 50%;
+  padding: 30px;
+}
+.remas{
+  margin: 20px 0;
+  text-align: justify;
+}
+.rodykle{
+  margin: 20px 0;
+}
+.arm{
+  padding: 0 0;
+}
+.banglente {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/niagara.jpg');
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: initial;
+  color: #ffffff;
+  //height: -moz-available;
+  //height: -webkit-fill-available;
+  //height: fill-available;
+  padding-top: 13rem;
+  padding-bottom: 8rem;
+  height: 100%;
+  box-sizing: border-box;
+}
+.konteineris {
+  margin: auto 0;
+  padding: 10px 50px;
+
+}
+.skaitykle {
+  overflow: auto;
+  //height: -moz-available;
+  //height: -webkit-fill-available;
+  //height: fill-available;
+  height: 100%;
+  box-sizing: border-box;
+}
+.screen {
+  margin-left: 0px;
+  margin-right: 0px;
+  overflow: auto;
+  position: absolute;
+  top: 114px;
+  bottom: 0;
+  height: auto;
+}
+.panel-body {
+  padding: 0px;
+}
+.linkas{
+  color: $font-color;
+}
+.linkas:hover{
+  color: $font-color;
+}
+.noutas{
+  padding: 2px 4px;
+  border-radius: 2px;
+  margin: 0 3px;
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.warningas{
+  background-color: #ffA500;
+  color: #303030;
+}
+.erroras{
+  background-color: #ff0000;
+}
+.unconfirm{
+  background-color: #303030;
+}
+.dydis{
+  font-size: 16px;
+}
+.zalia{
+  background-color: #008672;
+}
+.viol{
+  background-color: #5319e7;
+}
+.zydra{
+  background-color: #c7def8;
+  color: #303030;
+}
+@media only screen and (max-width: 812px) {
+  .banglente {
+    height: 350px;
+  }
+}
