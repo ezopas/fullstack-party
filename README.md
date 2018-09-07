@@ -1,14 +1,11 @@
 # Great task for Great Fullstack Developer
 
-If you found this task it means we are looking for you!
-
-> Note: To clone this repository you will need [GIT-LFS](https://git-lfs.github.com/)
-
-## Few simple steps
-
-1. Fork this repo
-2. Do your best
-3. Prepare pull request and let us know that you are done
+Atlikta Tesone Full stack developer užduotis:
+- Sukurti platformą, į kurią galima prisijungti per Github paskyrą, ir matyti tam tikros github repositorijos "issues" sąrašą ir įėjus į ją matyti jos autoriaus komentarą.
+- Užduotis sukurti prototipą į panašų po kaire.
+![Github Login](https://i.imgur.com/K2ZubVo.png)
+![Issue list](https://i.imgur.com/l1G5BJ8.png)
+![Issue](https://i.imgur.com/MUfCB8x.png)
 
 ## Few simple requirements
 
@@ -21,9 +18,3 @@ If you found this task it means we are looking for you!
 - Browser support must be great. All modern browsers plus IE9 and above.
 - Use a Javascript task-runner. Gulp, Webpack or Grunt - it doesn't matter.
 - Do not commit the build, because we are building things on deployment.
-
-## Few tips
-
-- Structure! WE LOVE STRUCTURE!
-- Maybe You have an idea how it should interact with users? Do it! Its on you!
-- Have fun!
